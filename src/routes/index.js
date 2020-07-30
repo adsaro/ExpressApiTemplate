@@ -1,7 +1,7 @@
 import express from 'express';
-
+import { indexPage } from '../controllers';
 const indexRouter = express.Router();
 
-indexRouter.get('/', (req, res) => res.status(200).json({ message: 'Bienvenido al template de Express' }));
+indexRouter.get('/', indexPage);
 
 export default indexRouter;
