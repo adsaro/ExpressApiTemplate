@@ -13,4 +13,4 @@ VALUES ('Jesus', 'primer mensaje'),
       ('Sanchez', 'segundo mensaje')
 `;
 
-export const eliminarTablaMensajes = 'DROP TABLE mensajes';
+export const eliminarTablaMensajes = 'DROP TABLE IF EXISTS mensajes;';
