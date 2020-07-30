@@ -7,8 +7,8 @@
     "start": "node ./build/bin/www",
     "startdev": "nodemon --exec babel-node ./src/bin/www",
     "lint": "./node_modules/.bin/eslint ./src",
-    "pretty": "prettier --write '**/*.{js,json}' '!node_modules/**'",
-    "postpretty": "yarn lint --fix",
+    "pretty": "prettier --write **/*.{js,json} !node_modules/**",
+    "postpretty": "./node_modules/.bin/eslint ./src --fix",
     "test": "jest --coverage",
     "testWatch": "jest --coverage --watch",
     "runQuery": "babel-node ./src/utils/runQuery"
