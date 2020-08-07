@@ -1,3 +1,28 @@
+# Cómo empezar a usar el código directamente
+Para comenzar primero clona el proyecto
+```sh
+git clone https://github.com/adsaro/ExpressApiTemplate [nombre-opcional]
+```
+La parte opcional es por si deseas darle un nombre diferente.
+
+Ingresa al directorio recien creado
+```sh
+cd ExpressApiTemplate #o el nombre que le hayas dado
+```
+
+Instala las dependencias
+```sh
+npm install
+```
+
+Copia el archivo .env.example en .env
+```sh
+cp .env.example .env
+```
+Y modifica el contenido para que la URL de la base de datos sea la correcta para tu aplicación.
+
+# Tutorial completo
+
 # Crear plantilla de proyecto en Node.js con Express, PostgreSQL y Jest para TDD
 
 Para comenzar con este tutorial será necesario tener instalados git, node.js, npm y yarn. Si aún no los has instalado visitas sus páginas web y sigue las instrucciones para su instalación.
